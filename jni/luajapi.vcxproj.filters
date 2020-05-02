@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lua">
+      <UniqueIdentifier>{b554ed13-a6e9-4603-beea-70c766f66be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="japi">
+      <UniqueIdentifier>{51de86cb-5443-42d8-a5c4-e184aea7a795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="luasocket">
+      <UniqueIdentifier>{d1f3084e-8d49-4d1f-949f-d08ddd4e0b9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lua\lapi.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lauxlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lbaselib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lbitlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcode.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcorolib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lctype.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldblib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldebug.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldo.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldump.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lfunc.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lgc.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\linit.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\liolib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\llex.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmathlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmem.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loadlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lobject.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lopcodes.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loslib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lparser.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstate.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstring.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstrlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltable.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltablib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltm.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lua.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\luac.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lundump.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lvm.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lzio.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\assets_reader.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\cache.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\compiler.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\debug_info.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\isolate.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\jbridge.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\jfunction.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\jinfo.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\jlog.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\jtable.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\juserdata.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\list.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\luajapi.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\m_mem.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\m_utf.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\map.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\message_looper.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\saes.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\stack.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="japi\utils.c">
+      <Filter>japi</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\auxiliar.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\buffer.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\compat.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\except.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\inet.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\io.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\luasocket.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\mime.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\options.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\select.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\serial.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\tcp.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\timeout.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\udp.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\unix.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\unixdgram.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\unixstream.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\usocket.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\wsocket.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lua\lapi.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lcode.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lctype.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldebug.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldo.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lfunc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lgc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llex.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llimits.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lmem.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lobject.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lopcodes.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lparser.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstate.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstring.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltable.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.hpp">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaconf.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lundump.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lvm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lzio.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\assets_reader.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\cache.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\compiler.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\debug_info.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\global_define.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\isolate.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\jbridge.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\jfunction.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\jinfo.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\jlog.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\jtable.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\juserdata.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\list.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\luajapi.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\m_mem.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\m_utf.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\map.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\message_looper.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\mlog.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\saes.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\stack.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="japi\utils.h">
+      <Filter>japi</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\auxiliar.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\buffer.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\compat.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\except.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\inet.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\io.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\luasocket.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\mime.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\options.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\pierror.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\select.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\socket.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\tcp.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\timeout.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\udp.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\unix.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\unixdgram.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\unixstream.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\usocket.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\wsocket.h">
+      <Filter>luasocket</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="luasocket\makefile">
+      <Filter>luasocket</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt" />
+  </ItemGroup>
+</Project>
